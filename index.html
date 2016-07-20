@@ -1,0 +1,53 @@
+<html>
+<title>Linked List</title>
+
+<head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+
+<body>
+
+
+    <div id="top">
+        <p>Linked List Illustration (Beta)</p>
+    </div>
+
+    <canvas id="canvas" height="300px" width="800px"></canvas>
+    <br>
+    <button class="btn btn-warning" id="btnLeft">
+        <</button>
+            <button class="btn btn-warning" id="btnRight">></button>
+
+            <hr>
+            <div class="controlsContainer">
+                <div class="control">
+                    <input type="text" placeholder="Position" class="form-control" id="insertPosition" />
+                    <input type="text" placeholder="Value" class="form-control" id="insertValue" />
+                    <button class="btn btn-success btnOperation" id="btnInsert">Insert</button>
+                </div>
+
+                <div class="control">
+                    <input type="text" placeholder="Position only" class="form-control" id="removePosition" />
+                    <input type="text" placeholder="Value only" class="form-control" id="removeValue" />
+                    <button class="btn btn-danger btnOperation" id="btnDelete">Remove</button>
+                </div>
+
+                <div class="control">
+                    <button class="btn btn-info btnOperation" id="btnMakeEmpty">MakeEmpty</button>
+                    <hr>
+                    <button class="btn btn-default" id="btnClear">Clear</button>
+                </div>
+            </div>
+
+
+
+
+
+            <script type="text/javascript" src="js/jquery-min.js"></script>
+            <script type="text/javascript" src="js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="js/linkedlist.js"></script>
+            <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
